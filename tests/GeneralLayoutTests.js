@@ -39,7 +39,7 @@ TestCase("GeneralLayoutTests", {
 
         // this.loadPage("http://localhost/layout/tests/testpages/general-layout-tests1.php");
 
-        var layout = new DG.Layout();
+        var layout = new DG.LayoutHandler();
         layout.parse(el);
 
         var layouts = layout.getLayouts();

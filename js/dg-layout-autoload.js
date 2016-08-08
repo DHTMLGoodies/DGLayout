@@ -3,6 +3,6 @@
  */
 
 $(document).ready(function () {
-    var layout = new DG.Layout();
-    layout.parse(document.body);
+    var layout = new DG.LayoutHandler();
+    layout.parse(document.documentElement);
 });

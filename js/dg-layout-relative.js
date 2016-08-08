@@ -5,10 +5,6 @@ if (window.DG == undefined) {
     window.DG = {};
 }
 
-console.log(DG.LayoutBase);
-
-
-
 DG.LayoutRelative = (function LayoutRelativeClass(_super){
 
     LayoutRelative.inherits(_super);
@@ -17,17 +13,16 @@ DG.LayoutRelative = (function LayoutRelativeClass(_super){
         type:"relative"
     };
 
-
-    function LayoutRelative(props){
+    function LayoutRelative(config){
         _super.apply(this, arguments);
-        $.extend(this, props, _defaults);
+        $.extend(this, config, _defaults);
     }
-
-    LayoutRelative.prototype = {
-        
-    };
 
     return LayoutRelative;
 
-}(DG.LayoutBase));
+}(DG.Layout));
+
+
+
+
 

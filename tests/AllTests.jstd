@@ -1,7 +1,7 @@
 load:
   - ../js/jquery-1.11.2.min.js
+  - ../js/dg-layout-handler.js
   - ../js/dg-layout.js
-  - ../js/dg-layout-base.js
   - ../js/dg-layout-relative.js
 
 test:
